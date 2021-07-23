@@ -176,3 +176,7 @@ def test_polygon_iterator():
     assert all([p3[i] != p4[i] for i in range(13)])
     assert p1[0] != p4[0]
     assert all([p4[i] == p5[i] for i in range(13)])
+    
+test_polygon()
+test_polygon_iterator()
+
