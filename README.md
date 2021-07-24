@@ -17,7 +17,7 @@
 
 Link to the notebook file with examples:
 
-[https://github.com/vgops75/session-11-PolygonIterator/session11_PolygonIterator.ipynb]
+[https://github.com/vgops75/session-11-PolygonIterator/blob/master/session11_PolygonIterator.ipynb]
 
 
 #### `s1 = PolygonIterator(7, 5)` creates an instance of PolygonIterator and this contains sequences of polygons with number of edges starting from n = 3 (minimum) to 7, and a common circum_radius of R = 5 is assumed for the polygon sequences.
@@ -36,7 +36,7 @@ for item in s1:
         print(item)
     else:
         break
-'''
+```
 
 
 
